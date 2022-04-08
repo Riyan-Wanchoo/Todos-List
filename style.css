@@ -1,0 +1,113 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body{
+   height: 100vh;
+   background-color: #c7f3c7;
+}
+
+.navbar{
+   display: flex;
+   justify-content: space-between;
+   /* padding-top: 10px;
+   padding-bottom: 10px; */
+   height: 10%;
+   background-color: lightgrey;
+}
+
+.ul{
+   width: 26%;
+   display: flex;
+   justify-content: center;
+   list-style-type: none;
+}
+.ul li{
+   margin-left: 10px !important;
+   margin-right: 10px !important;
+   margin-top: 22px !important;
+   font-size: 20px;
+}
+.ul li a:hover{
+   color: #ec753d;
+   text-decoration: none;
+}
+
+.logo{
+   cursor: pointer ;
+   font-weight: 600;
+   margin-top: 20px;
+   font-size: 25px;
+}
+.logo a{
+   text-decoration: none;
+   color: black;
+}
+.searchBar{
+   display: flex;
+   margin-top: 17px;
+   margin-right: 22px;
+} 
+.searchBar button{
+   cursor: pointer;
+   width: 97px;
+   height: 78%;
+   background-color: #c7f3c7;
+   outline: none;
+   border: none;
+} 
+
+.searchBar button:hover{
+   background-color: #a6da7d;
+}
+
+.searchBar input{
+   height: 47%;
+   font-size: 14px;
+   margin-top: 2.3px;
+   height: 30px;
+   margin-right: 7px;
+   width: 85%;
+   outline: 0.002px solid #c7f3c7;
+   border: 3px solid #c7f3c7;
+}
+
+.addTodo{
+   text-align: center;
+   margin-top: 40px;
+}
+.addTodo input{
+   margin-bottom: 40px;
+   padding: 9px;
+   text-align: center;
+   margin-top: 20px;
+}
+
+.addTodo button{
+   padding: 12px;
+   background-color: #c7f3c7;
+   border: 2px solid lightgray;
+   cursor: pointer;
+}
+.addTodo button:hover{
+   background-color: #60be60;
+}
+.TodoContainer{
+   overflow-x: hidden;
+   border: 1px solid #b59b9b;
+   max-height: 95%;
+   overflow-y: auto;
+   display: grid;
+   width: 70%;
+   /* grid-auto-columns: auto; */
+   margin: auto;
+   grid-template-columns: 18.4rem 18.4rem 18.4rem;
+   margin-top: 50px;
+   /* column-gap: 4px; */
+   /* grid-gap: 7px; */
+}
+
+.foot{
+   display: flex;
+}
